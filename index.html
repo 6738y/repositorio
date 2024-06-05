@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <!-- Navbar (sit on top) -->
+        <div class="w3-top">
+          <div class="w3-bar w3-white w3-card" id="myNavbar">
+            <a href="index.html" class="w3-bar-item w3-button w3-wide"><img src="imagenes/logo.png" width="100" height="80" ></im>   GITHUB<br>
+             </a>
+            <!-- Right-sided navbar links -->
+            <div class="w3-right w3-hide-small">
+              <a href="equipo.html" class="w3-bar-item w3-button"> contenido</a>
+              <a href="tabla.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> ejemplos</a>
+        
+            </div>
+            <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+             <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Sidebar on small screens when clicking the menu icon -->
+        <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+          <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+          <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">INICIO</a>
+          <a href="equipo.html" onclick="w3_close()" class="w3-bar-item w3-button">CONTENIDO</a>
+          <a href="tabla.html" onclick="w3_close()" class="w3-bar-item w3-button">EJEMPLOS</a>
+        </nav>
+        </header>
+        <br>
+        <br>
+        <br>
+        <br>
+<h1>Autenticación en GitHub en GitHub Desktop</h1>
+<h3>Puedes acceder de forma segura a los recursos de tu cuenta en GitHub Desktop si te autenticas con GitHub.</h3>
+<p>Para mantener la seguridad de tu cuenta, debes autenticarte antes de que puedas utilizar GitHub Desktop para acceder a los recursos en GitHub.
+
+    Antes de realizar la autenticación, Debes tener una cuenta en GitHub.com. Para más información, consulta
+     <a href="https://docs.github.com/es/get-started/start-your-journey/creating-an-account-on-github">Creación de una cuenta en GitHub
+    </a></p><br>
+
+
+    <button class="lists">AUTENTICAR EN GitHub</button> 
+        
+    <div class="panel">
+        
+         <p style="text-align: right;">
+    </p>
+    </div> 
+    
+    <button class="lists">1</button>
+    
+     <div class="panel">
+      <p> Use el menú Archivo y haga clic en Opciones. <br>
+        <img src="imagenes/uno.png" alt="">
+      </p> 
+      </div> 
+      
+      <button class="lists">2</button>
+      
+       <div class="panel"> 
+       <p> En la ventana "Opciones", en el panel Cuentas, haga clic en el botón Iniciar sesión situado junto a "GitHub.com". <br>
+        <img src="imagenes/dos.png" alt="">
+       </p>
+        </div> 
+
+        <button class="lists">3</button>
+    
+     <div class="panel">
+      <p> En la ventana modal "Iniciar sesión con el navegador", haz clic en Continuar con el navegador. GitHub Desktop abrirá tu buscador predeterminado. <br>
+        Advertencia: En GitHub no se admite la autenticación mediante el nombre de usuario y la contraseña. En vez de esto, se requiere que te autentiques utilizando tu buscador.
+      </p> 
+      </div> 
+
+      <button class="lists">4</button>
+    
+     <div class="panel">
+      <p>Para autenticarse en GitHub, escribe tus credenciales de GitHub.com en el navegador y haz clic en Iniciar sesión. <br>
+Como alternativa, si ya hubieras iniciado sesión en GitHub, sigue los mensajes para regresar a GitHub Desktop y así completar la autenticación.
+      </p> 
+      </div> 
+
+      <button class="lists">5</button>
+    
+      <div class="panel">
+       <p>Si has configurado la autenticación de dos factores (2FA) para GitHub, realiza una de las siguientes acciones: <br>
+<ul>
+    <li>Si configuras 2FA por medio de SMS, recupera tu código 2FA de un mensaje SMS.</li>
+    <li>Si configuras 2FA con una aplicación TOTP, genera un código 2FA.</li>
+    
+</ul><br>
+Después, escriba el código de 2FA en el mensaje de GitHub y haga clic en Verificar.
+        
+       </p> 
+       </div> 
+
+       <button class="lists">6</button>
+    
+       <div class="panel">
+        <p>Después de que GitHub autentique tu cuenta, sigue las indicaciones para regresar a GitHub Desktop.
+        </p> 
+        </div> 
+
+         <br />
+    <script>  
+    var acc = document .getElementsByClassName("lists"); var i;
+    for (i = 0; i < acc.length; i++) {acc[i].onclick = function(){ this.classList.toggle("active"); this.nextElementSibling.classList .toggle("show"); } } 
+    </script>
+                
+            </div>
+        </div>  
+        <div class="cont">
+            <div class="body">
+
+                <footer>
+                    <h3>Integrantes del equipo 4</h3>
+<ol><li>Donovan Santiago Flores Melgarejo</li>
+<li>Miriam Alvarez Aguila</li>
+<li>Uriel Ruben Lopez Rojas</li>
+<li>Valery Gudalupe Hernandez Atonal</li>
+<li>Ximena Toscano Flores</li></ol>
+                </footer>
+
+                <script>
+                    function w3_open() {
+                      document.getElementById("mySidebar").style.display = "block";
+                    }
+                    function w3_close() {
+                      document.getElementById("mySidebar").style.display = "none";
+                    }
+                    </script>
+</body>
+</html>
